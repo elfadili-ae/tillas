@@ -43,4 +43,10 @@ body {
   .stop2 {
     stop-color: rgb(239, 98, 159);
   }
+
+  #nav-container-top {
+    background-color: #bdc3c7;
+    min-height: 1px;
+    min-width: 1px;
+  }
 }
