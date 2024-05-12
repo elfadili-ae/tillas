@@ -23,6 +23,7 @@ const Portfolio = () => {
                     setIsSticky(true)
                 else if (entries[0].intersectionRatio === 1)
                     setIsSticky(false);
+                // observer.disconnect();
             }, {
                 threshold: [0, 1]
             });
