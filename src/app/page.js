@@ -4,6 +4,7 @@ import Marquee from "@/components/Marquee";
 import VideoSection from "../components/VideoSection";
 import GetToKnow from "../components/GetToKnow";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -14,8 +15,7 @@ export default function Home() {
       <Expertise />
       <VideoSection />
       <Portfolio />
-      <div className="h-screen"></div>
-      {/* <Portfolio /> */}
+      <Contact />
     </main>
   );
 }
