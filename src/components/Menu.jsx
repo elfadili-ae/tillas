@@ -22,16 +22,16 @@ const Menu = () => {
 
                 <div className={`${menu ? 'h-[50%] md:h-full animate-[slideWindowDown_1s_ease-in] md:animate-[slideWindowUp_1s_ease-in]' : 'animate-[hideWindowDown_1s_ease-out] h-0 transition-all transform duration-1000'} w-full md:w[50%] bg-slate-700 pointer-events-auto`}>
                     <div className={`${!menu && 'hidden'} w-full h-full flex flex-col gap-3 p-8 justify-center items-center text-purple-200  group hover:text-slate-400`}>
-                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200'>
+                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2s_ease-out]'>
                             <Link href='' className='text-3xl md:text-5xl font-bold'>Home</Link>
                         </div>
-                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200'>
+                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2.4s_ease-out]'>
                             <Link href='' className='text-3xl md:text-5xl font-bold'>About Me</Link>
                         </div>
-                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200'>
+                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2.8s_ease-out]'>
                             <Link href='' className='text-3xl md:text-5xl font-bold'>Services</Link>
                         </div>
-                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200'>
+                        <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_3.2s_ease-out]'>
                             <Link href='' className='text-3xl md:text-5xl font-bold'>Portfolio</Link>
                         </div>
                     </div>
@@ -45,20 +45,20 @@ const Menu = () => {
                             +123-6548897<br />+123-hello contact@tillas.com <br />If in doubt. reach out.
                         </div>
                         <ul className='px-4 w-fit style list-disc text-2xl md:text-3xl font-poppins'>
-                            <li className='group'>
-                                <Link href=''>Dribble</Link>
+                            <li className='group animate-[slideWindowUp_2s_ease-out] md:animate-[slideWindowDown_2s_ease-out]'>
+                                <Link href='/portfolio-details'>Dribble</Link>
                                 <div className='group-hover:w-full w-0 transition-all duration-300 h-[2px] bg-purple-200'></div>
                             </li>
-                            <li className='group'>
-                                <Link href=''>Instagram </Link>
+                            <li className='group animate-[slideWindowUp_2s_ease-out] md:animate-[slideWindowDown_2.5s_ease-out]'>
+                                <Link href='/portfolio-details'>Instagram </Link>
                                 <div className='group-hover:w-full w-0 transition-all duration-300 h-[2px] bg-purple-200'></div>
                             </li>
-                            <li className='group'>
-                                <Link href=''>LinkedIn</Link>
+                            <li className='group animate-[slideWindowUp_2s_ease-out] md:animate-[slideWindowDown_3s_ease-out]'>
+                                <Link href='/portfolio-details'>LinkedIn</Link>
                                 <div className='group-hover:w-full w-0 transition-all duration-300 h-[2px] bg-purple-200'></div>
                             </li>
-                            <li className='group'>
-                                <Link href=''>Behance</Link>
+                            <li className='group animate-[slideWindowUp_2s_ease-out] md:animate-[slideWindowDown_3.5s_ease-out]'>
+                                <Link href='/portfolio-details'>Behance</Link>
                                 <div className='group-hover:w-full w-0 transition-all duration-300 h-[2px] bg-purple-200'></div>
                             </li>
                         </ul>
