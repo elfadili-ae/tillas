@@ -1,11 +1,15 @@
+'use client'
+
 import Image from 'next/image'
 import React from 'react'
 import logo from '/public/tillas.png'
 import photo1 from '/public/pic1.png'
+import Menu from './Menu'
 
 const Hero = () => {
     return (
-        <div className='w-full flex max-[991px]:flex-col bg-slate-600'>
+        <div className='relative w-full flex max-[991px]:flex-col bg-slate-600'>
+            <Menu />
             <div className='w-full pl-4 py-20 flex flex-col justify-center  bg-black relative'>
                 <Image src={logo} alt='tillas picture' className='absolute w-28 top-4 left-4' />
                 <div className=' flex font-poppins font-bold text-6xl md:text-9xl'>

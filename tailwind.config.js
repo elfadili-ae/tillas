@@ -18,7 +18,7 @@ module.exports = {
       animation: {
         marquee: 'marqueeFrames 16s linear infinite',
         marquee2: 'marqueeFrames2 16s linear infinite',
-        slideUp: 'slideUpFrames 0.2s ease-in-out'
+        slideUp: 'slideUpFrames 0.2s ease-in-out',
       },
       keyframes: {
         marqueeFrames: {
@@ -32,7 +32,23 @@ module.exports = {
         slideUpFrames: {
           '0%': { transform: 'translateY(60%)', opacity: '20%' },
           '100%': { transform: 'translateY(20%)', opacity: '100%' },
-        }
+        },
+        slideWindowUp: {
+          '0%': { transform: 'translateY(100%)', opacity: '60%' },
+          '100%': { transform: 'translateY(0)', opacity: '100%' },
+        },
+        hideWindowUp: {
+          '0%': { transform: 'translateY(0)', opacity: '100%' },
+          '100%': { transform: 'translateY(100%)', opacity: '0%' },
+        },
+        slideWindowDown: {
+          '0%': { transform: 'translateY(-100%)', opacity: '60%' },
+          '100%': { transform: 'translateY(0)', opacity: '100%' },
+        },
+        hideWindowDown: {
+          '0%': { transform: 'translateY(0)', opacity: '100%' },
+          '100%': { transform: 'translateY(-100%)', opacity: '0%' },
+        },
       }
     },
   },

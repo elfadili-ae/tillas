@@ -79,7 +79,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className='mt-6 flex flex-col items-center gap-1 sm:flex-row-reverse sm:justify-between text-purple-200'>
-                <p>elfadili.ae@gmail.com</p>
+                <p>contact@tillas.com</p>
                 <p>© All Rights Reserved. By Tillas</p>
             </div>
         </section>
