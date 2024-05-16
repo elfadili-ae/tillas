@@ -4,7 +4,7 @@ const GetToKnow = () => {
     return (
         <section id='gettoknow' className='relative px-3 overflow-hidden w-full font-poppins flex flex-col justify-center min-h-screen text-purple-200 bg-gradient-to-b from-black to-slate-700'>
             <div className='relative w-full flex gap-2 justify-center items-center max-md:flex-col'>
-                <p className='text-center'>GET TO<br />X <br />Know ME</p>
+                <p className='text-center'>GET TO<br />X <br />KNOW ME</p>
                 <h1 className='text-6xl md:text-9xl'>STYLE</h1>
             </div>
             <div className='w-full flex gap-2 justify-center items-center max-md:flex-col'>
@@ -13,7 +13,7 @@ const GetToKnow = () => {
             <div className='relative w-full max-md:flex-col-reverse flex gap-2 justify-center items-center'>
                 <p className='text-center'>Working as a creative &<br />outsource your fashion design<br />
                     project & get it quickly done and<br />delivered remotely online.</p>
-                <h1 className='text-6xl md:text-9xl'>LIFE'S VIBE</h1>
+                <h1 className='text-6xl md:text-9xl'>LIFE&apos;S VIBE</h1>
             </div>
 
             <svg

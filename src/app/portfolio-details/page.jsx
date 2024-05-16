@@ -32,9 +32,9 @@ const page = () => {
                             <Link href='/' className='px-4 py-1 border-2 border-purple-200 rounded-full hover:text-black hover:bg-purple-200'>VISIT LINK</Link>
                         </div>
                         <div className='w-full flex-1'>
-                            <p className='mb-6'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            <p className='mb-6'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable.
                             </p>
-                            <p>In this demo project, we will provide an overview of the interior design process, showcasing the various stages involved in crafting stunning and personalized living and working spaces. From conceptualization to execution, You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.!
+                            <p>In this demo project, we will provide an overview of the interior design process, showcasing the various stages involved in crafting stunning and personalized living and working spaces. From conceptualization to execution, You need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.!
                             </p>
                             <div className='flex flex-wrap gap-8 mt-6'>
                                 <p><span className='text-lg font-bold'>Clients</span><br />THE ORGANIC CRAVE</p>
@@ -55,9 +55,9 @@ const page = () => {
                             <h2 className='text-4xl md:text-6xl'>Finishing &<br />Touches</h2>
                         </div>
                         <div className='w-full flex-1'>
-                            <p className='mb-6'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                            <p className='mb-6'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don&apos;t look even slightly believable.
                             </p>
-                            <p>In this demo project, we will provide an overview of the interior design process, showcasing the various stages involved in crafting stunning and personalized living and working spaces. From conceptualization to execution, You need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.!
+                            <p>In this demo project, we will provide an overview of the interior design process, showcasing the various stages involved in crafting stunning and personalized living and working spaces. From conceptualization to execution, You need to be sure there isn&apos;t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.!
                             </p>
                         </div>
                     </div>
