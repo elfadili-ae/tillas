@@ -18,7 +18,6 @@ const Portfolio = () => {
 
             // Intersection Observer
             var observer = new IntersectionObserver(function (entries) {
-                console.log(entries[0].intersectionRatio)
                 if (entries[0].intersectionRatio === 0)
                     setIsSticky(true)
                 else if (entries[0].intersectionRatio === 1)
@@ -37,7 +36,7 @@ const Portfolio = () => {
     }, []);
 
     return (
-        <div className='relative w-full flex flex-col items-center min-h-screen bg-slate-800 pb-16'>
+        <div id='portfolio' className='relative w-full flex flex-col items-center min-h-screen bg-slate-800 pb-16'>
             <div id="container-top"></div>
             <div id='stickyElement' className='sticky z-0 top-0 left-0 mb-16 pt-6 w-full flex justify-center items-center'>
                 <h1 className={`${isSticky ? 'text-6xl md:text-9xl' : 'text-3xl'} transition-all duration-1000 text-purple-200`}>Portfolio</h1>

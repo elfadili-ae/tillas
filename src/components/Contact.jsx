@@ -20,7 +20,7 @@ const Contact = () => {
             <div className='mt-20 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:justify-items-center text-purple-300'>
                 <div className='pl-4 border-l-2 border-l-purple-200 group hover:border-l-pink-600'>
                     <p className='text-sm group-hover:text-pink-600'>REGULAR UPDATES ON</p>
-                    <Link href='https://github.com/elfadili-ae' className='flex gap-1'>
+                    <Link href='https://www.linkedin.com/in/abdessamad-el-fadili/' className='flex gap-1'>
                         <h3 className='text-3xl hover:text-purple-50'>Instagram</h3>
                         <svg
                             className='w-4 h-4'
@@ -31,8 +31,8 @@ const Contact = () => {
                 </div>
                 <div className='pl-4 border-l-2 border-l-purple-200 group hover:border-l-pink-600'>
                     <p className='text-sm group-hover:text-pink-600'>WORD TALKS</p>
-                    <Link href='https://github.com/elfadili-ae' className='flex gap-1'>
-                        <h3 className='text-3xl hover:text-purple-50'>Twitter</h3>
+                    <Link href='https://www.linkedin.com/in/abdessamad-el-fadili/' className='flex gap-1'>
+                        <h3 className='text-3xl hover:text-purple-50'>LinkedIn</h3>
                         <svg
                             className='w-4 h-4'
                             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div className='pl-4 border-l-2 border-l-purple-200 group hover:border-l-pink-600'>
                     <p className='text-sm group-hover:text-pink-600'>SINGLE SHOTS</p>
-                    <Link href='https://github.com/elfadili-ae' className='flex gap-1'>
+                    <Link href='https://www.linkedin.com/in/abdessamad-el-fadili/' className='flex gap-1'>
                         <h3 className='text-3xl hover:text-purple-50'>Dribble</h3>
                         <svg
                             className='w-4 h-4'
@@ -53,7 +53,7 @@ const Contact = () => {
                 </div>
                 <div className='pl-4 border-l-2 border-l-purple-200 group hover:border-l-pink-600'>
                     <p className='text-sm group-hover:text-pink-600'>COMPLETE PROJECTS</p>
-                    <Link href='https://github.com/elfadili-ae' className='flex gap-1'>
+                    <Link href='https://www.linkedin.com/in/abdessamad-el-fadili/' className='flex gap-1'>
                         <h3 className='text-3xl hover:text-purple-50'>Behance</h3>
                         <svg
                             className='w-4 h-4'

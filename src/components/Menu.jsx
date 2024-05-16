@@ -2,9 +2,12 @@
 import Link from 'next/link';
 import React, { useState } from 'react'
 
-
 const Menu = () => {
     const [menu, setMenu] = useState(false);
+
+    const handleCloseMenu = () => {
+        setMenu(false);
+    };
 
     return (
         <div className='absolute top-0 left-0 z-30 w-full h-screen pointer-events-none'>
@@ -23,16 +26,16 @@ const Menu = () => {
                 <div className={`${menu ? 'h-[50%] md:h-full animate-[slideWindowDown_1s_ease-in] md:animate-[slideWindowUp_1s_ease-in]' : 'animate-[hideWindowDown_1s_ease-out] h-0 transition-all transform duration-1000'} w-full md:w[50%] bg-slate-700 pointer-events-auto`}>
                     <div className={`${!menu && 'hidden'} w-full h-full flex flex-col gap-3 p-8 justify-center items-center text-purple-200  group hover:text-slate-400`}>
                         <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2s_ease-out]'>
-                            <Link href='' className='text-3xl md:text-5xl font-bold'>Home</Link>
+                            <Link href='/' onClick={handleCloseMenu} className='text-3xl md:text-5xl font-bold'>Home</Link>
                         </div>
                         <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2.4s_ease-out]'>
-                            <Link href='' className='text-3xl md:text-5xl font-bold'>About Me</Link>
+                            <Link href='/#gettoknow' onClick={handleCloseMenu} className='text-3xl md:text-5xl font-bold'>About Me</Link>
                         </div>
                         <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_2.8s_ease-out]'>
-                            <Link href='' className='text-3xl md:text-5xl font-bold'>Services</Link>
+                            <Link href='/#expertise' onClick={handleCloseMenu} className='text-3xl md:text-5xl font-bold'>Services</Link>
                         </div>
                         <div className='w-full pb-2 px-4 border-b-2 border-b-purple-200 hover:text-purple-200 animate-[slideWindowDown_2s_ease-out] md:animate-[slideWindowUp_3.2s_ease-out]'>
-                            <Link href='' className='text-3xl md:text-5xl font-bold'>Portfolio</Link>
+                            <Link href='/#portfolio' onClick={handleCloseMenu} className='text-3xl md:text-5xl font-bold'>Portfolio</Link>
                         </div>
                     </div>
                 </div>
@@ -42,7 +45,7 @@ const Menu = () => {
 
                         </div>
                         <div className='w-full text-right leading-8 font-poppins'>
-                            +123-6548897<br />+123-hello contact@tillas.com <br />If in doubt. reach out.
+                            +123-6548897<br />hello contact@tillas.com <br />Get in touch. anytime.
                         </div>
                         <ul className='px-4 w-fit style list-disc text-2xl md:text-3xl font-poppins'>
                             <li className='group animate-[slideWindowUp_2s_ease-out] md:animate-[slideWindowDown_2s_ease-out]'>
