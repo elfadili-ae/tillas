@@ -5,6 +5,7 @@ import React from 'react'
 import logo from '/public/tillas.png'
 import photo1 from '/public/pic1.png'
 import Menu from './Menu'
+import Link from 'next/link'
 
 const Hero = () => {
     return (
@@ -21,7 +22,7 @@ const Hero = () => {
                 </div>
                 <h1 className='font-poppins font-bold text-6xl md:text-[140px] bg-gradient-to-r from-blue-600 to-violet-600 w-fit text-transparent bg-clip-text'>I&apos;m Tillas</h1>
                 <p className='text-xl text-purple-200'>A Creative Fashion Designer</p>
-                <button className='text-lg mt-10 px-4 py-4 border-2 border-purple-200 w-fit text-purple-200 hover:bg-purple-200 hover:text-slate-800'>SEE PORTFOLIO</button>
+                <Link href='#portfolio' className='text-lg mt-10 px-4 py-4 border-2 border-purple-200 w-fit text-purple-200 hover:bg-purple-200 hover:text-slate-800'>SEE PORTFOLIO</Link>
             </div>
             <div className='w-full h-screen bg-gradient-to-r from-blue-600 to-violet-600 relative overflow-hidden'>
                 <Image src={photo1} alt='tillas photo' className='w-full h-full object-contain absolute bottom-0 z-10' />
